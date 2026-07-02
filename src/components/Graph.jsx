@@ -3,9 +3,9 @@ import { useRef, useEffect, useCallback, useState } from 'react';
 function graphColors() {
   const dark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   return {
-    grid: dark ? 'rgba(242,237,232,0.07)' : 'rgba(26,22,18,0.07)',
-    axis: dark ? 'rgba(242,237,232,0.3)' : 'rgba(26,22,18,0.3)',
-    label: dark ? 'rgba(242,237,232,0.5)' : 'rgba(26,22,18,0.5)',
+    grid: dark ? 'rgba(232,232,240,0.07)' : 'rgba(37,42,73,0.07)',
+    axis: dark ? 'rgba(232,232,240,0.3)' : 'rgba(37,42,73,0.3)',
+    label: dark ? 'rgba(232,232,240,0.5)' : 'rgba(37,42,73,0.5)',
     bg: dark ? '#0d0c0b' : '#faf7f4',
   };
 }
